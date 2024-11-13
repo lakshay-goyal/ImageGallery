@@ -79,3 +79,39 @@
   opacity: 1;
   transform: scale(1.03);
 }  
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .container h1 {
+        margin: 20px 60px;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container h1 {
+        margin: 15px 40px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container h1 {
+        margin: 12px 20px;
+        font-size: 1.8rem;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .container h1 {
+        margin: 10px 15px;
+        font-size: 1.5rem;
+        word-wrap: break-word;
+        hyphens: auto;
+    }
+}
